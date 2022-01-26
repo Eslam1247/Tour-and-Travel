@@ -640,6 +640,15 @@ header .search-bar-container label:hover{
   section{
     padding:2rem;
   }
+  header{
+    position: fixed;
+    background:#333;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+  }
 
 }
 
@@ -648,7 +657,16 @@ header .search-bar-container label:hover{
   #menu-bar{
     display: initial;
   }
-
+  header {
+  position: fixed;
+  background: #333;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4%;
+  width: 25%;
+  }
   header .navbar{
     position: absolute;
     top:100%; right:0; left: 0;
